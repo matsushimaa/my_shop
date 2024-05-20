@@ -8,6 +8,7 @@ require_once '../lib/DB.php';
 // POSTリクエストでなければ何も表示しない
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
+    
 }
 
 // データベースに接続
